@@ -1,11 +1,11 @@
-ï»¿@using Contoso.Models
+@using Contoso.Models
 @using ContosoWeb.Utils
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title â€“ Contoso Sports</title>
+    <title>@ViewBag.Title – Contoso Sports</title>
     @Styles.Render("~/Content/css")
 
     @Scripts.Render("~/bundles/modernizr")
@@ -99,10 +99,10 @@
                     <div class="col-md-3">
                         <h4>Site Menu</h4>
                         <ul>
-                            <li><a href="@Url.Action("Browse", "Store", new {Area = string.Empty, categoryId = 1})">Men</a></li>
-                            <li><a href="@Url.Action("Browse", "Store", new {Area = string.Empty,categoryId = 2})">Women</a></li>
-                            <li><a href="@Url.Action("Browse", "Store", new {Area = string.Empty,categoryId = 3})">Kids</a></li>
-                            <li><a href="@Url.Action("Browse", "Store", new {Area = string.Empty,categoryId = 4})">Balls</a></li>
+                            <li><a href="@Url.Action("Browse", "Store", new {Area = string.Empty, categoryId = 1})">Lesbians</a></li>
+                            <li><a href="@Url.Action("Browse", "Store", new {Area = string.Empty,categoryId = 2})">Gays</a></li>
+                            <li><a href="@Url.Action("Browse", "Store", new {Area = string.Empty,categoryId = 3})">Bisexual</a></li>
+                            <li><a href="@Url.Action("Browse", "Store", new {Area = string.Empty,categoryId = 4})">Transgenders</a></li>
                             <li><a href="@Url.Action("Browse", "Store", new {Area = string.Empty,categoryId = 5})">Tickets</a></li>
                             <li><a href="@Url.Action("AddressAndPayment", "Checkout", new {Area = string.Empty})">Checkout</a></li>
                         </ul>
@@ -128,7 +128,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="pull-left-sm">
-                            Â© @DateTime.UtcNow.Year Microsoft. Based on The Phoenix Project by <a href="http://www.realgenekim.me/" class="footer-link">Gene Kim</a>.
+                            © @DateTime.UtcNow.Year Microsoft. Based on The Phoenix Project by <a href="http://www.realgenekim.me/" class="footer-link">Gene Kim</a>.
                         </div>
                     </div>
                     <div class="col-md-6">
